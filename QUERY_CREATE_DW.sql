@@ -8,7 +8,7 @@ CREATE TABLE Products (
 
 CREATE TABLE Temporal (
   temporal_id INTEGER PRIMARY KEY,
-  datetime_creation TIMESTAMP NOT NULL
+  datetime_creation DATE NOT NULL
 );
 
 CREATE TABLE Sales_Fact (
